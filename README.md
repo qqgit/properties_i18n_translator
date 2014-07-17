@@ -7,7 +7,7 @@ This is a simple Python (2.7) and wxPython based project to help make i18n and l
 
 Usage:
 
-Simply run i18nFrame.py using your Python 2.7. A UI (see UISnapshot.png) will be open waiting for user to select input files and it is very straight foward. wxPython is required for UI display.
+Simply run i18nFrame.py using your Python 2.7. A UI (see UISnapshot.jpg) will be open waiting for user to select input files and it is very straight foward. wxPython is required for UI display.
 Use example files in example folder for test. 
 
 Detailed Description:
