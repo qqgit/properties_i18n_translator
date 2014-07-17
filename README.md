@@ -29,7 +29,7 @@ The purpose of this project is to deal with three kind of files:
        
        En_keyn=Loc_valuen" 
        
-   as its content. Loc_value1, Loc_value2, ... Loc_valuen are all unicode(ascii) charactors like "\u5173\u4e8e"(local wors for "关于").
+   as its content. Loc_value1, Loc_value2, ... Loc_valuen are all unicode(ascii) charactors like "\u5173\u4e8e"(unicode charactors for "关于").
    
 3. Dictionary file with 
 
@@ -41,6 +41,19 @@ The purpose of this project is to deal with three kind of files:
        
        En_valuen=Loc_valuen"
        
-   as its content.Loc_value1, Loc_value2, ... Loc_valuen are all unicode(ascii) charactors like "\u5173\u4e8e"(local wors for "关于").
+   as its content.Loc_value1, Loc_value2, ... Loc_valuen are all unicode(ascii) charactors like "\u5173\u4e8e"(unicode charactors for "关于").
    
+Three functions are implemented:
+1. Translate
+
+   Select an English .properties file and a dictionary file, translate function will translate the English .properties file to Local .properties file with the selected dictionary file.
    
+2. Update Dictionary
+
+   Select a base dictionary file and a new dictionary file, update dictionary function will update the base dictionary file to a combined dictionary file with the selected new dictionary file. If an "En_value" appears in both the selected base dictionary file and new dictionary file, the "Loc_value" in the selected new dictionary file will be used in the combined dictionary file.
+   
+3. Extract Dictionary
+
+   Select an English .properties file and a local .properties file, extract dictionary function will extract a dictionary file from them.
+   
+Note: native2ascii executable provided by Java is NECESSARY. You can select your native2ascii.exe on the UI. If you have Java installed and "JAVA_HOME" environment variable set properly, it should be set automatically.
