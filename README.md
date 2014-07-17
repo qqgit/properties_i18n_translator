@@ -1,7 +1,16 @@
 properties_i18n_translator
 ==========================
 
+Description:
+
 This is a simple Python (2.7) and wxPython based project to help make i18n and l10n life easier. A UI is provided to translate English .properties files to local .properties file, to extract dictionary file from English .properties file and corresponding local .properties file, or to update (combine) two dictionary file.
+
+Usage:
+
+Simply run i18nFrame.py using your Python 2.7. A UI (see UISnapshot.png) will be open waiting for user to select input files and it is very straight foward. wxPython is required for UI display.
+Use example files in example folder for test. 
+
+Detailed Description:
 
 .properties files are often used for storing strings for Internationalization and localization in Java related technologies, which are also known as Property Resource Bundles. Contents of .properties file are "key=value" pairs seperated by new line. One can use native2ascii executable provided by Java to convert an local encoded .properties file to unicode encoded .properties file and vice versa. 
 
