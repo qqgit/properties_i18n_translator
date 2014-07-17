@@ -44,6 +44,7 @@ The purpose of this project is to deal with three kind of files:
    as its content.Loc_value1, Loc_value2, ... Loc_valuen are all unicode(ascii) charactors like "\u5173\u4e8e"(unicode charactors for "关于").
    
 Three functions are implemented:
+
 1. Translate
 
    Select an English .properties file and a dictionary file, translate function will translate the English .properties file to Local .properties file with the selected dictionary file.
