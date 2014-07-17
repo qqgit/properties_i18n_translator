@@ -3,7 +3,7 @@
 '''
 Created on 2011-3-15
 
-@author: cnxc8360
+@author: qqgit
 '''
 
 import os

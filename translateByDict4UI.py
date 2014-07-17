@@ -3,7 +3,7 @@
 '''
 Created on 2011-3-16
 Modified on 2012-11-16, create untranslated files in key=value format
-@author: cnxc8360
+@author: qqgit
 '''
 
 import os

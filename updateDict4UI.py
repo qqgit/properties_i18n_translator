@@ -7,7 +7,7 @@ All key-values appear in both base dict and new dict will be saved and sorted
 in a file with "_Updated" as suffix in the name.
 Both I18N ASCII file and Unicode file will be created, with an extension of
 .properties and . txt respectively.
-@author: cnxc8360
+@author: qqgit
 '''
 
 import os

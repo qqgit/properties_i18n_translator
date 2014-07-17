@@ -1,7 +1,6 @@
 
-""" Test wxPython
-2011.12.21 Xueqi
-
+""" Using wxPython
+2011.12.21 qqgit
 """
 
 import wx
