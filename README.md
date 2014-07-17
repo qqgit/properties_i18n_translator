@@ -39,8 +39,8 @@ The purpose of this project is to deal with three kind of files:
        
        ...
        
-       En_valuen=Loc_valuen
-       " 
+       En_valuen=Loc_valuen"
+       
    as its content.Loc_value1, Loc_value2, ... Loc_valuen are all unicode(ascii) charactors like "\u5173\u4e8e"(local wors for "关于").
    
    
